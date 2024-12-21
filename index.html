@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destination</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Travel Destination</h1>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Explore the World</h2>
+                <p>Discover breathtaking destinations and make unforgettable memories.</p>
+                <button onclick="scrollToSection('destinations')">Get Started</button>
+            </div>
+        </section>
+
+        <section id="destinations" class="container">
+            <h2>Popular Destinations</h2>
+            <div class="grid">
+                <article class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Paris">
+                    <h3>Paris, France</h3>
+                    <p>The city of love and lights.</p>
+                </article>
+                <article class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Bali">
+                    <h3>Bali, Indonesia</h3>
+                    <p>A tropical paradise for nature lovers.</p>
+                </article>
+                <article class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="New York">
+                    <h3>New York, USA</h3>
+                    <p>The city that never sleeps.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Travel Destination. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
